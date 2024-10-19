@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAPP_TRAVELUPTASK", "MVCAPP_TRAVELUPTASK.csproj", "{0216F81D-4F4A-4028-98A1-A208DC9B27C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAPP_TRAVELUPTASK.Tests", "..\MVCAPP_TRAVELUPTASK.Tests\MVCAPP_TRAVELUPTASK.Tests.csproj", "{10F557E5-EFBC-47B3-99CF-2FC362E970AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0216F81D-4F4A-4028-98A1-A208DC9B27C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0216F81D-4F4A-4028-98A1-A208DC9B27C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0216F81D-4F4A-4028-98A1-A208DC9B27C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0216F81D-4F4A-4028-98A1-A208DC9B27C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F557E5-EFBC-47B3-99CF-2FC362E970AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F557E5-EFBC-47B3-99CF-2FC362E970AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F557E5-EFBC-47B3-99CF-2FC362E970AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F557E5-EFBC-47B3-99CF-2FC362E970AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5A507E3-7FDE-4067-9C3D-DCF899429D34}
+	EndGlobalSection
+EndGlobal

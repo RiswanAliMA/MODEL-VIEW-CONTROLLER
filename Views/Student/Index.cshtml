@@ -1,0 +1,63 @@
+﻿@model IEnumerable<MVCAPP_TRAVELUPTASK.Models.TBLSTUDENT>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Student Master List</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.STUD_NO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.STUD_NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.STUD_DOB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.STUD_MOB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.STUD_CITY)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.STUD_COUNTRY)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.STUD_NO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STUD_NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STUD_DOB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STUD_MOB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STUD_CITY)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STUD_COUNTRY)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.STUD_ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.STUD_ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.STUD_ID })
+        </td>
+    </tr>
+}
+
+</table>

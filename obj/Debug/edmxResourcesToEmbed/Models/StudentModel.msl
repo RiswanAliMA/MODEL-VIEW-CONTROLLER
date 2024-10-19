@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TESTMVCModelStoreContainer" CdmEntityContainer="TESTMVCEntities2">
+    <EntitySetMapping Name="TBLSTUDENTs">
+      <EntityTypeMapping TypeName="TESTMVCModel.TBLSTUDENT">
+        <MappingFragment StoreEntitySet="TBLSTUDENT">
+          <ScalarProperty Name="STUD_ID" ColumnName="STUD_ID" />
+          <ScalarProperty Name="STUD_NO" ColumnName="STUD_NO" />
+          <ScalarProperty Name="STUD_NAME" ColumnName="STUD_NAME" />
+          <ScalarProperty Name="STUD_DOB" ColumnName="STUD_DOB" />
+          <ScalarProperty Name="STUD_MOB" ColumnName="STUD_MOB" />
+          <ScalarProperty Name="STUD_CITY" ColumnName="STUD_CITY" />
+          <ScalarProperty Name="STUD_COUNTRY" ColumnName="STUD_COUNTRY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
