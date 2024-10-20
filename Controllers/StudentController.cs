@@ -104,16 +104,16 @@ namespace MVCAPP_TRAVELUPTASK.Controllers
         {
             try
             {
-                if (db.TBLSTUDENTs.Any(a => a.STUD_ID.Equals(tBLSTUDENT.STUD_ID)))
-                {
-                    ModelState.AddModelError(nameof(tBLSTUDENT.STUD_ID), "ID already exists!!");
+               // if (db.TBLSTUDENTs.Any(a => a.STUD_ID.Equals(tBLSTUDENT.STUD_ID)))
+              //  {
+                //    ModelState.AddModelError(nameof(tBLSTUDENT.STUD_ID), "ID already exists!!");
 
-                }
+               // }
 
-                if (db.TBLSTUDENTs.Any(a => a.STUD_NO.Equals(tBLSTUDENT.STUD_NO) && a.STUD_ID != tBLSTUDENT.STUD_ID))
-                {
-                    ModelState.AddModelError(nameof(tBLSTUDENT.STUD_NO), "Student Number already exists!!");
-                }
+               // if (db.TBLSTUDENTs.Any(a => a.STUD_NO.Equals(tBLSTUDENT.STUD_NO) && a.STUD_ID != tBLSTUDENT.STUD_ID))
+               // {
+                   // ModelState.AddModelError(nameof(tBLSTUDENT.STUD_NO), "Student Number already exists!!");
+              //  }
 
                 if (ModelState.IsValid)
                 {
